@@ -139,6 +139,9 @@ main {
         margin-top: 9rem!important;
         height: 50vh!important;
     }
+    .cards {
+        display: block!important;
+    }
 }
 @media (min-height: 700px) {
     main {

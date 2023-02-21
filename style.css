@@ -114,6 +114,13 @@ main {
 .cards {
     display: flex!important;
 }
+.items {
+    text-align: start;
+}
+.social-items {
+    list-style: none;
+    padding-left: 0!important;
+}
 @media (max-width: 1000px) {
     #about {
         display: block!important;

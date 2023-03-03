@@ -139,6 +139,19 @@ main {
 .bi-whatsapp {
     color: #2fcc6e!important;
 }
+#btn-back-to-top {
+    padding: 0;
+    position: fixed;
+    bottom: 1rem;
+    right: 6rem;
+    z-index: 1;
+    background-color: transparent;
+    border: none;
+}
+.bi-arrow-up-square-fill {
+    font-size: 3rem;
+    color: black!important;
+}
 @media (max-width: 1000px) {
     #about {
         display: block!important;
@@ -170,6 +183,7 @@ main {
     #navbar {
         position: fixed!important;
         width: 100vw!important;
+        z-index: 1;
     }
     #inner-nav {
         margin: .5rem!important;

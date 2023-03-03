@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    
 }
 body {
     margin: 0;
@@ -23,8 +24,11 @@ body {
 main {
     display: block;
     width: 70vw;
-    margin: 17rem auto;
+    margin: 15rem auto;
     position: relative;
+}
+.px-3 {
+    margin-top: 10rem!important;
 }
 #btn {
     transition: all .5s ease; 
@@ -162,6 +166,13 @@ main {
     }
     .cards {
         display: block!important;
+    }
+    #navbar {
+        position: fixed!important;
+        width: 100vw!important;
+    }
+    #inner-nav {
+        margin: .5rem!important;
     }
 }
 @media (min-height: 700px) {

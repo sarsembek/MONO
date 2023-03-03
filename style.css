@@ -142,7 +142,7 @@ main {
 #btn-back-to-top {
     padding: 0;
     position: fixed;
-    bottom: 1rem;
+    bottom: .9rem;
     right: 6rem;
     z-index: 1;
     background-color: transparent;
@@ -187,7 +187,6 @@ main {
         position: fixed!important;
         width: 100vw!important;
         z-index: 1;
-
     }
     #inner-nav {
         margin: .5rem!important;

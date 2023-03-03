@@ -187,7 +187,7 @@ main {
         position: fixed!important;
         width: 100vw!important;
         z-index: 1;
-        height: 10vh!important;
+        height: 12vh!important;
     }
     #inner-nav {
         margin: .5rem!important;

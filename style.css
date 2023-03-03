@@ -153,6 +153,9 @@ main {
     color: black!important;
 }
 @media (max-width: 1000px) {
+    #logo {
+        width: 4rem;
+    }
     #about {
         display: block!important;
     }
@@ -184,6 +187,7 @@ main {
         position: fixed!important;
         width: 100vw!important;
         z-index: 1;
+        height: 10vh!important;
     }
     #inner-nav {
         margin: .5rem!important;

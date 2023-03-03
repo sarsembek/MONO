@@ -126,6 +126,15 @@ main {
     text-decoration: none;
     padding-left: 0.25rem;
 }
+.bi {
+    color: #b807d3!important;
+}
+.bi-instagram {
+    color: #ff00c8!important;
+}
+.bi-whatsapp {
+    color: #2fcc6e!important;
+}
 @media (max-width: 1000px) {
     #about {
         display: block!important;

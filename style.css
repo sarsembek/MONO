@@ -214,6 +214,9 @@ main {
 .nav-link:hover {
     color: #000!important;
 }
+#linkus {
+    text-decoration: none;
+}
 @media (max-width: 1000px) {
     #logo {
         width: 4rem;

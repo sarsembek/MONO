@@ -218,6 +218,9 @@ main {
     text-decoration: none;
 }
 @media (max-width: 1000px) {
+    .carousel-inner {
+        margin-top: 1rem!important;
+    }
     #logo {
         width: 4rem;
     }
@@ -226,6 +229,7 @@ main {
     }
     #desc {
         padding: 0;
+        margin: 0;
     }
     .row.mt-4 {
         margin-top: 0!important;
@@ -251,7 +255,7 @@ main {
     #navbar {
         position: fixed!important;
         width: 100vw!important;
-        z-index: 1;
+        z-index: 1000;
     }
     #inner-nav {
         margin: .5rem!important;
@@ -260,6 +264,11 @@ main {
 @media (min-height: 700px) {
     main {
         margin-top: 16rem!important;
+    }
+}
+@media (max-width: 1200px) {
+    .carousel-inner {
+        margin-top: 5rem;
     }
 }
 .border-bottom {

@@ -13,7 +13,7 @@ window.amoSocialButtonConfig = {
       },
   
       theme: {
-        header: false,
+        header: true,
       },
     },
   };

@@ -365,3 +365,8 @@ main {
    .btn-bottom:active {
     background: linear-gradient(32deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
    }
+   .amo-button-holder.amo-horisontal {
+    position: fixed;
+    right: 5.25rem;
+    bottom: 1rem;
+   }

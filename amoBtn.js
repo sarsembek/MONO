@@ -17,25 +17,25 @@ window.amoSocialButtonConfig = {
       },
     },
   };
-  window.amoSocialButtonConfig = {
-    onlinechat: {
-      theme: {
-        background: 'purple', // фон
-        system_color: 'black', // цвет системных текстов (статус доставки, дата)
-        header: { // можно указать header: false, тогда он вообще не будет отрисован
-          background: 'yellow', // цвет фона верхней части чата
-          color: 'black', // цвет текста верхней части
-        },
-        message: {
-          outgoing_background: 'red', // фон сообщения пользователя
-          outgoing_color: 'white', // цвет текста сообщения пользователя
-          incoming_background: 'blue', // фон ответа оператора
-          incoming_color: 'white', // цвет текста ответа оператора
-        },
-        compose: {
-          height: 100, // минимальная высота в пикселях (максимальная 170px, изменить ее нельзя)
-          button_background: 'black', // фон кнопки отправки
-        }
+window.amoSocialButtonConfig = {
+  onlinechat: {
+    theme: {
+      background: 'yellow', // фон
+      system_color: 'pink', // цвет системных текстов (статус доставки, дата)
+      header: { // можно указать header: false, тогда он вообще не будет отрисован
+        background: 'skyblue', // цвет фона верхней части чата
+        color: 'black', // цвет текста верхней части
       },
+      message: {
+        outgoing_background: 'red', // фон сообщения пользователя
+        outgoing_color: 'white', // цвет текста сообщения пользователя
+        incoming_background: 'blue', // фон ответа оператора
+        incoming_color: 'white', // цвет текста ответа оператора
+      },
+      compose: {
+        height: 100, // минимальная высота в пикселях (максимальная 170px, изменить ее нельзя)
+        button_background: 'black', // фон кнопки отправки
+      }
     },
-  };
+  },
+};

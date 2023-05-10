@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css" rel="stylesheet"/>
     <link rel="icon" href="assets/mplogo.png">
   </head>
   <body class="d-block h-100 text-center text-white">
@@ -31,10 +32,13 @@
                                 <a href="#service" class="nav-link">Наши услуги</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#price" class="nav-link">Цены и правила</a>
+                                <a href="#price" class="nav-link">Цены</a>
                             </li>
+                            <li class="nav-item">
+                              <a href="#menu" class="nav-link">Меню</a>
+                          </li>
                             <li class="nav-item dropdown">
-                                <a href="#points" class="nav-link dropdown-toggle" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">Заведения</a>
+                                <a href="#points" class="nav-link dropdown-toggle" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">Филиалы</a>
                                 <ul class="dropdown-menu" aria-labelledby="navDrop">
                                     <li><a href="#first" class="dropdown-item">Барибаева 31А</a></li>
                                     <li><a href="#second" class="dropdown-item">Аксай 1А, 28Б</a></li>
@@ -80,12 +84,26 @@
                 <img src="/assets/b140dcc1-8e3a-482b-acf1-059387f16481.jpg" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="/assets/photo2.jpeg" class="d-block w-100" alt="...">
+                <img src="/assets/photo1682422041.jpeg" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
                 <img src="assets/985900ca-9d78-4ab7-ac10-f5b9740d5f67.jpg" class="d-block w-100" alt="...">
               </div>
+              <div class="carousel-item">
+                <img src="assets/674c1d8f-021e-4a54-93c5-07193f2b0e63.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/2905fa73-7cfc-4f59-88b9-c5ebd7a66d77.jpg" class="d-block w-100" alt="...">
+              </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
     </div>
     <div class="container-fluid bg-white text-black" id="service">
@@ -128,7 +146,7 @@
             <div class="col">
                 <div class="container">
                     <i class="bi bi-camera-reels icon"></i>
-                    <p class="desc">Кинопоказы</p>
+                    <p class="desc">Кинорум</p>
                 </div>
             </div>
             <div class="col">
@@ -148,7 +166,7 @@
     <hr class="hr-line">
     <div class="container-fluid bg-white text-black" id="price">
         <div class="row">
-            <p class="fs-1 text-uppercase fw-bold titles mt-4">Цены и правила</p>
+            <p class="fs-1 text-uppercase fw-bold titles mt-4">Цены</p>
         </div>
         <div class="container d-flex" id="cards">
             <div class="card" id="common"> 
@@ -165,7 +183,7 @@
                       </h2>
                       <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                          <strong>Что входить в стоимость?</strong><br>
+                          <strong>Что входит в стоимость?</strong><br>
                           <ul class="items">
                             <li class="list-item">Настольный теннис</li>
                             <li class="list-item">Приставки PS4 с новыми играми</li>
@@ -193,7 +211,7 @@
                       </h2>
                       <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                          <strong>Что входить в стоимость?</strong><br>
+                          <strong>Что входит в стоимость?</strong><br>
                           <ul class="items">
                             <li class="list-item">Всё что входить в <a id="linkus" href="#common">Общий зал</a></li>
                             <li class="list-item">Отдельная комната</li>
@@ -209,10 +227,123 @@
             </div>
         </div>
     </div>
+    <div class="container" id="menu">
+      <div class="row">
+        <p class="fs-1 text-uppercase fw-bold mt-4 mb-4 titles">Меню</p>
+      </div>
+      <div class="cards">
+        <div class="card">
+          <div class="card-header">
+            Пиццы
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <p>Маргарита</p>
+              <p class="hookah-price">2200тг</p>
+            </li>
+            <li class="list-group-item">
+              <p>Пепперони</p>
+              <p class="hookah-price">2400тг</p>
+            </li>
+            <li class="list-group-item">
+              <p>С охотничьми колбасками</p>
+              <p class="hookah-price">2500тг</p>
+            </li>
+            <li class="list-group-item">
+              <p>С курицей и грибами</p>
+              <p class="hookah-price">2500тг</p>
+            </li>
+            <li class="list-group-item">
+              <p>Сырная</p>
+              <p class="hookah-price">2700тг</p>
+            </li>
+            <li class="list-group-item">
+              <p>Кольцоне</p>
+              <p class="hookah-price">2200тг</p>
+            </li>
+            <li class="list-group-item">
+              <p>4 сезона</p>
+              <p class="hookah-price">2700тг</p>
+            </li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            Закуски
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <p>Наггетсы</p>
+              <p class="hookah-price">1200тг</p>
+            </li>
+            <li class="list-group-item">
+              <p>Сырные шарики</p>
+              <p class="hookah-price">1200тг</p>
+            </li>
+            <li class="list-group-item">
+              <p>Фри</p>
+              <p class="hookah-price">600тг </p>
+            </li>
+            <li class="list-group-item">
+              <p>Картофельные дольки</p>
+              <p class="hookah-price">600тг</p>
+            </li>
+            <li class="list-group-item">
+              <p>Картофельные шарики</p>
+              <p class="hookah-price">600тг</p>
+            </li>
+            <li class="list-group-item">
+              <p>Соус</p>
+              <p class="hookah-price">600тг</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="cards-2">
+        <div class="card">
+          <div class="card-header">
+            Комбо
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item combo">
+              <p>Комбо 1(Курица и грибы, Пепперони, Наггетсы, Фри, Соус)</p>
+              <p class="hookah-price">6400тг</p>
+            </li>
+            <li class="list-group-item combo">
+              <p>Комбо 2(Маргарита, Курица и грибы, Пепперони, С охотничьми колбасками, Наггетсы, Сырные шарики, Фри, Соус)</p>
+              <p class="hookah-price">13800тг</p>
+            </li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            Кальяны
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <p>Light(Jibair,Adalya,Ручной,Serbetli)</p>
+              <p class="hookah-price">4000тг</p>
+            </li>
+            <li class="list-group-item">
+              <p>Замена шиши Light</p>
+              <p class="hookah-price">2500тг</p>
+            </li>
+            <li class="list-group-item">
+              <p>Premium(Musthave,Blackburn)</p>
+              <p class="hookah-price">5000тг</p>
+            </li>
+            <li class="list-group-item">
+              <p>Замена шиши Premium</p>
+              <p class="hookah-price">3500тг</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
     <div class="clear" style="clear: both;"></div>
     <div class="container" id="points">
         <div class="row">
-            <p class="fs-1 text-uppercase fw-bold mt-4 titles">Заведения</p>
+            <p class="fs-1 text-uppercase fw-bold mt-4 mb-4 titles">Филиалы</p>
         </div>
         <div class="cards">
           <div class="card" id="first"style="width: 18rem;">
@@ -248,13 +379,25 @@
               <a href="https://taplink.cc/mono.kz/p/bc6025/" class="btn-bottom">Забронировать</a>
             </div>
           </div>
+          <div class="card" id="fourth" style="width: 18rem;">
+            <img src="https://pbs.twimg.com/media/EOarTBYX0AI3iHg?format=png&name=large" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">MONO PS Club</h5>
+              <ul class="social-items">
+                <li><i class="bi bi-instagram"></i><a class="links" href="https://instagram.com/mono.aksai?igshid=YmMyMTA2M2Y=">@mono.aksai</a></li>
+                <li><i class="bi bi-whatsapp"></i><a class="links" href="https://api.whatsapp.com/send?phone=77072620250&text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D1%85%D0%BE%D1%82%D0%B5%D0%BB(%D0%B0)%20%D0%B1%D1%8B%20%D0%B7%D0%B0%D0%B1%D1%80%D0%BE%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%2C%20%D0%90%D0%BA%D1%81%D0%B0%D0%B9%201%D0%90%2C%2028%D0%91.">+7 707 262 0250</a></li>
+              </ul>
+              <a href="https://taplink.cc/mono.kz/p/bc6025/" class="btn-bottom">Забронировать</a>
+            </div>
+          </div>
         </div>
         <footer class="py-3 my-4">
           <ul class="nav justify-content-center pb-3 mb-3">
             <li class="nav-item"><a href="#about" class="nav-link px-2 text-muted">О нас</a></li>
             <li class="nav-item"><a href="#service" class="nav-link px-2 text-muted">Наши услуги</a></li>
-            <li class="nav-item"><a href="#price" class="nav-link px-2 text-muted">Цены и правила</a></li>
-            <li class="nav-item"><a href="#points" class="nav-link px-2 text-muted">Заведения</a></li>
+            <li class="nav-item"><a href="#price" class="nav-link px-2 text-muted">Цены</a></li>
+            <li class="nav-item"><a href="#menu" class="nav-link px-2 text-muted">Меню</a></li>
+            <li class="nav-item"><a href="#points" class="nav-link px-2 text-muted">Филиалы</a></li>
           </ul>
           <p class="text-center text-muted">© 2022 MONOPLAY</p>
         </footer>
@@ -262,4 +405,6 @@
   <script src="amoBtn.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   <script src="top.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 </html>

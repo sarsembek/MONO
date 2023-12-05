@@ -126,6 +126,9 @@ main {
     margin: 0.5rem!important;
     display: flex!important;
 }
+#card {
+    min-width: 50vw!important
+}
 #myCarousel {
     width: 100vw!important;
     border: none!important;
@@ -165,6 +168,7 @@ main {
 .cards {
     display: flex!important;
     justify-content: center;
+    min-width: 50vw!important;
 }
 .cards-2 {
     display: flex!important;
@@ -236,7 +240,7 @@ main {
     display: block!important;
 }
 .hookah-price {
-    color: #b807d3;
+    color: #b807d3!important;
     font-weight: 500;
 }
 #menu {
@@ -265,6 +269,9 @@ main {
     #cards {
         display: block!important;
         margin: 0!important;
+    }
+    .cards-2 {
+        display: block!important;
     }
     .card {
         width: 100%!important;
